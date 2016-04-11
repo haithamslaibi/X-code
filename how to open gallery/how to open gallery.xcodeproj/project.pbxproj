@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBADD661CBBC46F008B6385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBADD651CBBC46F008B6385 /* AppDelegate.swift */; };
+		6DBADD681CBBC46F008B6385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBADD671CBBC46F008B6385 /* ViewController.swift */; };
+		6DBADD6B1CBBC46F008B6385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBADD691CBBC46F008B6385 /* Main.storyboard */; };
+		6DBADD6D1CBBC46F008B6385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBADD6C1CBBC46F008B6385 /* Assets.xcassets */; };
+		6DBADD701CBBC46F008B6385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBADD6E1CBBC46F008B6385 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DBADD621CBBC46E008B6385 /* how to open gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "how to open gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBADD651CBBC46F008B6385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DBADD671CBBC46F008B6385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DBADD6A1CBBC46F008B6385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBADD6C1CBBC46F008B6385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBADD6F1CBBC46F008B6385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DBADD711CBBC46F008B6385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBADD5F1CBBC46E008B6385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBADD591CBBC46E008B6385 = {
+			isa = PBXGroup;
+			children = (
+				6DBADD641CBBC46F008B6385 /* how to open gallery */,
+				6DBADD631CBBC46E008B6385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBADD631CBBC46E008B6385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBADD621CBBC46E008B6385 /* how to open gallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBADD641CBBC46F008B6385 /* how to open gallery */ = {
+			isa = PBXGroup;
+			children = (
+				6DBADD651CBBC46F008B6385 /* AppDelegate.swift */,
+				6DBADD671CBBC46F008B6385 /* ViewController.swift */,
+				6DBADD691CBBC46F008B6385 /* Main.storyboard */,
+				6DBADD6C1CBBC46F008B6385 /* Assets.xcassets */,
+				6DBADD6E1CBBC46F008B6385 /* LaunchScreen.storyboard */,
+				6DBADD711CBBC46F008B6385 /* Info.plist */,
+			);
+			path = "how to open gallery";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBADD611CBBC46E008B6385 /* how to open gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBADD741CBBC46F008B6385 /* Build configuration list for PBXNativeTarget "how to open gallery" */;
+			buildPhases = (
+				6DBADD5E1CBBC46E008B6385 /* Sources */,
+				6DBADD5F1CBBC46E008B6385 /* Frameworks */,
+				6DBADD601CBBC46E008B6385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "how to open gallery";
+			productName = "how to open gallery";
+			productReference = 6DBADD621CBBC46E008B6385 /* how to open gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBADD5A1CBBC46E008B6385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hackeru;
+				TargetAttributes = {
+					6DBADD611CBBC46E008B6385 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6DBADD5D1CBBC46E008B6385 /* Build configuration list for PBXProject "how to open gallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBADD591CBBC46E008B6385;
+			productRefGroup = 6DBADD631CBBC46E008B6385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBADD611CBBC46E008B6385 /* how to open gallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBADD601CBBC46E008B6385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBADD701CBBC46F008B6385 /* LaunchScreen.storyboard in Resources */,
+				6DBADD6D1CBBC46F008B6385 /* Assets.xcassets in Resources */,
+				6DBADD6B1CBBC46F008B6385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBADD5E1CBBC46E008B6385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBADD681CBBC46F008B6385 /* ViewController.swift in Sources */,
+				6DBADD661CBBC46F008B6385 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DBADD691CBBC46F008B6385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBADD6A1CBBC46F008B6385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DBADD6E1CBBC46F008B6385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBADD6F1CBBC46F008B6385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBADD721CBBC46F008B6385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DBADD731CBBC46F008B6385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DBADD751CBBC46F008B6385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "how to open gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackeru.how-to-open-gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DBADD761CBBC46F008B6385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "how to open gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackeru.how-to-open-gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBADD5D1CBBC46E008B6385 /* Build configuration list for PBXProject "how to open gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBADD721CBBC46F008B6385 /* Debug */,
+				6DBADD731CBBC46F008B6385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBADD741CBBC46F008B6385 /* Build configuration list for PBXNativeTarget "how to open gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBADD751CBBC46F008B6385 /* Debug */,
+				6DBADD761CBBC46F008B6385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBADD5A1CBBC46E008B6385 /* Project object */;
+}
