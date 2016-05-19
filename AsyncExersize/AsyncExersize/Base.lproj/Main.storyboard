@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AsyncExersize" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download compleate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-xa-WbX">
+                                <rect key="frame" x="80" y="443" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5h-Uc-whC">
+                                <rect key="frame" x="-4" y="20" width="328" height="415"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="JEW-f6-0Pb">
+                                <rect key="frame" x="150" y="210" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MhW-cv-R6l">
+                                <rect key="frame" x="85" y="239" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="P4b-bl-lRo"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d5h-Uc-whC" secondAttribute="bottom" constant="45" id="1c3-1c-pDU"/>
+                            <constraint firstItem="JEW-f6-0Pb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="5oh-br-h4o"/>
+                            <constraint firstItem="d5h-Uc-whC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="64h-WE-Fel"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d5h-Uc-whC" secondAttribute="bottom" constant="45" id="Bbp-9b-2CV"/>
+                            <constraint firstItem="d5h-Uc-whC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="EMx-fa-6Lk"/>
+                            <constraint firstItem="JEW-f6-0Pb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tfa-cQ-RyW"/>
+                            <constraint firstItem="MhW-cv-R6l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dkK-sl-9cJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ILP-xa-WbX" secondAttribute="bottom" constant="16" id="nhH-nb-g69"/>
+                            <constraint firstItem="MhW-cv-R6l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oSM-OA-oAk"/>
+                            <constraint firstItem="ILP-xa-WbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tdx-6E-GC0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d5h-Uc-whC" secondAttribute="trailing" constant="-20" id="us8-Gq-AMc"/>
+                            <constraint firstItem="d5h-Uc-whC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wdk-uD-Ygi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bbp-9b-2CV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="Label" destination="ILP-xa-WbX" id="3AP-Jw-LiP"/>
+                        <outlet property="activityIndicator" destination="JEW-f6-0Pb" id="Dyv-vA-K28"/>
+                        <outlet property="imageView" destination="d5h-Uc-whC" id="g1H-h7-czB"/>
+                        <outlet property="progressView" destination="MhW-cv-R6l" id="YOq-jz-Rcj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="349"/>
+        </scene>
+    </scenes>
+</document>
